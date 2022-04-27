@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Frontend\Home;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SocialController;
 
@@ -14,9 +15,7 @@ use App\Http\Controllers\SocialController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', Home::class);
 
 Route::middleware([
     'auth:sanctum',
