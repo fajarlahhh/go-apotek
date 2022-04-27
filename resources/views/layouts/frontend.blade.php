@@ -7,10 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
   <title>Go-Apotek</title>
-  <meta name="keywords"
-    content="apparel, catalog, clean, ecommerce, ecommerce HTML, electronics, fashion, html eCommerce, html store, minimal, multipurpose, multipurpose ecommerce, online store, responsive ecommerce template, shops" />
-  <meta name="description" content="Best ecommerce html template for single and multi vendor store.">
-  <meta name="author" content="ashishmaraviya">
+  <meta name="keywords" content="apotek, go-apotek" />
+  <meta name="description" content="go-apotek">
+  <meta name="author" content="Andi Fajar Nugraha">
 
   <!-- site Favicon -->
   <link rel="icon" href="/assets/images/favicon/favicon-4.png" sizes="32x32" />
