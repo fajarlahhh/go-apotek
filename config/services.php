@@ -31,8 +31,8 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => 'Facebook app id',
-        'client_secret' => 'Facebook add secret',
+        'client_id' => '1669554950072859',
+        'client_secret' => '4a0a4b3650d8577499c4af60f6ab897c',
         'redirect' => 'http://localhost:8000/auth/facebook/callback',
     ],
 
