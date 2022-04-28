@@ -2,12 +2,14 @@
 
 namespace App\Http\Livewire\Frontend;
 
-use Livewire\Component;
+use App\Http\Livewire\Frontend\Main;
 
-class Home extends Component
+class Home extends Main
 {
     public function render()
     {
-        return view('livewire.frontend.home')->extends('layouts.frontend');
+        return view('livewire.frontend.home')->extends('layouts.frontend', [
+            'dataCategory' => $this->dataCategory
+        ]);
     }
 }
